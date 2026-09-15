@@ -1,0 +1,28 @@
+#python
+__pycache__/
+*.py[cod]
+*.pyo
+
+#virtual enviroment
+.venv/
+venv
+env
+
+#Jupyter
+.ipynb_checkpoints/
+
+#Enviroments variables
+.env
+
+#IDE
+.vscode/
+#Logs
+*.log
+
+#Local data
+data/*.csv
+
+#Generated ML artifacts
+models/*.npy
+models/*.index
+
