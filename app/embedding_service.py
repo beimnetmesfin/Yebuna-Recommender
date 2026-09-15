@@ -19,3 +19,5 @@ class EmbeddingService:
             normalize_embeddings=True
         )
         return embedding.astype("float32")
+
+    
