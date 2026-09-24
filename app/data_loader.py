@@ -37,11 +37,9 @@ class DataLoader:
             "created_at",
             "average_rating",
             "total_reviews",
-            "total_sales",
+            "total_sales"
             "image_url"
         ]
-        ['item_id', 'title', 'description', 'category', 'subcategory', 'tags', 'creator_name', 'creator_rating', 'price', 'currency', 'language', 'country', 'stock', 'created_at', 'average_rating', 'total_reviews', 'total_sales', 'image_url']
-        self.validate_columns(df,required_columns,"products.csv")
 
         if clean:
             df=df.copy()

@@ -7,9 +7,8 @@ base_dir=Path(__file__).resolve().parent.parent
 
 data_dir=base_dir/"data"
 models_dir=base_dir/"models"
-
+test_index=base_dir/"test_folder"/"test.index"
 #Create the files in the data folder of the above
-
 products_file=data_dir/"products.csv"
 user_events_file=data_dir/"user_events.csv"
 

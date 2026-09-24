@@ -32,6 +32,7 @@ def main()->None:
     #Get information about the embeddings
     print(f"embedding shape:{embeddings.shape}")
     print(f"embedding dtype:{embeddings.dtype}")
+    print(embeddings)
 
     models_dir.mkdir(
         parents=True,
